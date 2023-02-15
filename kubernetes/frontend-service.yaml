@@ -6,7 +6,6 @@ metadata:
     app: frontend-ui
     lab: kubernetes-lab
 spec:
-  type: LoadBalancer
   ports:
     - port: 80
       name: http-80
